@@ -1,0 +1,799 @@
+{
+  "name": "backup-pv-pod",
+  "volumeMounts": {
+    "mountPath": "/usr/share/privx",
+    "name": "privx-config"
+  }
+}
+{
+  "name": "privx-auth-5994b97c49-sjk7s",
+  "volumeMounts": {
+    "mountPath": "/opt/privx/cert",
+    "name": "privx-config",
+    "subPath": "privxcert"
+  }
+}
+{
+  "name": "privx-auth-5994b97c49-sjk7s",
+  "volumeMounts": {
+    "mountPath": "/opt/privx/keyvault",
+    "name": "privx-config",
+    "subPath": "keyvault"
+  }
+}
+{
+  "name": "privx-auth-5994b97c49-sjk7s",
+  "volumeMounts": {
+    "mountPath": "/opt/privx/etc",
+    "name": "privx-config",
+    "subPath": "privxetc"
+  }
+}
+{
+  "name": "privx-auth-5994b97c49-sjk7s",
+  "volumeMounts": {
+    "mountPath": "/etc/nginx/ssl",
+    "name": "privx-config",
+    "subPath": "nginxssl"
+  }
+}
+{
+  "name": "privx-authorizer-5598bc98b8-xtrmb",
+  "volumeMounts": {
+    "mountPath": "/opt/privx/cert",
+    "name": "privx-config",
+    "subPath": "privxcert"
+  }
+}
+{
+  "name": "privx-authorizer-5598bc98b8-xtrmb",
+  "volumeMounts": {
+    "mountPath": "/opt/privx/keyvault",
+    "name": "privx-config",
+    "subPath": "keyvault"
+  }
+}
+{
+  "name": "privx-authorizer-5598bc98b8-xtrmb",
+  "volumeMounts": {
+    "mountPath": "/opt/privx/etc",
+    "name": "privx-config",
+    "subPath": "privxetc"
+  }
+}
+{
+  "name": "privx-authorizer-5598bc98b8-xtrmb",
+  "volumeMounts": {
+    "mountPath": "/etc/nginx/ssl",
+    "name": "privx-config",
+    "subPath": "nginxssl"
+  }
+}
+{
+  "name": "privx-cert-updater-d4fcdb554-vtwck",
+  "volumeMounts": {
+    "mountPath": "/opt/privx/keyvault",
+    "name": "privx-config",
+    "subPath": "keyvault"
+  }
+}
+{
+  "name": "privx-cert-updater-d4fcdb554-vtwck",
+  "volumeMounts": {
+    "mountPath": "/opt/privx/etc",
+    "name": "privx-config",
+    "subPath": "privxetc"
+  }
+}
+{
+  "name": "privx-connection-manager-85d55bf64b-k6t6b",
+  "volumeMounts": {
+    "mountPath": "/opt/privx/cert",
+    "name": "privx-config",
+    "subPath": "privxcert"
+  }
+}
+{
+  "name": "privx-connection-manager-85d55bf64b-k6t6b",
+  "volumeMounts": {
+    "mountPath": "/opt/privx/keyvault",
+    "name": "privx-config",
+    "subPath": "keyvault"
+  }
+}
+{
+  "name": "privx-connection-manager-85d55bf64b-k6t6b",
+  "volumeMounts": {
+    "mountPath": "/opt/privx/etc",
+    "name": "privx-config",
+    "subPath": "privxetc"
+  }
+}
+{
+  "name": "privx-connection-manager-85d55bf64b-k6t6b",
+  "volumeMounts": {
+    "mountPath": "/etc/nginx/ssl",
+    "name": "privx-config",
+    "subPath": "nginxssl"
+  }
+}
+{
+  "name": "privx-connection-manager-85d55bf64b-k6t6b",
+  "volumeMounts": {
+    "mountPath": "/var/privx/audit",
+    "name": "privx-config",
+    "subPath": "privxaudit"
+  }
+}
+{
+  "name": "privx-extender-service-787f4b468-s5mlf",
+  "volumeMounts": {
+    "mountPath": "/opt/privx/cert",
+    "name": "privx-config",
+    "subPath": "privxcert"
+  }
+}
+{
+  "name": "privx-extender-service-787f4b468-s5mlf",
+  "volumeMounts": {
+    "mountPath": "/opt/privx/keyvault",
+    "name": "privx-config",
+    "subPath": "keyvault"
+  }
+}
+{
+  "name": "privx-extender-service-787f4b468-s5mlf",
+  "volumeMounts": {
+    "mountPath": "/opt/privx/etc",
+    "name": "privx-config",
+    "subPath": "privxetc"
+  }
+}
+{
+  "name": "privx-extender-service-787f4b468-s5mlf",
+  "volumeMounts": {
+    "mountPath": "/etc/nginx/ssl",
+    "name": "privx-config",
+    "subPath": "nginxssl"
+  }
+}
+{
+  "name": "privx-host-store-7cf77df5dc-rmmqs",
+  "volumeMounts": {
+    "mountPath": "/opt/privx/cert",
+    "name": "privx-config",
+    "subPath": "privxcert"
+  }
+}
+{
+  "name": "privx-host-store-7cf77df5dc-rmmqs",
+  "volumeMounts": {
+    "mountPath": "/opt/privx/keyvault",
+    "name": "privx-config",
+    "subPath": "keyvault"
+  }
+}
+{
+  "name": "privx-host-store-7cf77df5dc-rmmqs",
+  "volumeMounts": {
+    "mountPath": "/opt/privx/etc",
+    "name": "privx-config",
+    "subPath": "privxetc"
+  }
+}
+{
+  "name": "privx-host-store-7cf77df5dc-rmmqs",
+  "volumeMounts": {
+    "mountPath": "/etc/nginx/ssl",
+    "name": "privx-config",
+    "subPath": "nginxssl"
+  }
+}
+{
+  "name": "privx-keyvault-7c9f4df459-j565b",
+  "volumeMounts": {
+    "mountPath": "/opt/privx/cert",
+    "name": "privx-config",
+    "subPath": "privxcert"
+  }
+}
+{
+  "name": "privx-keyvault-7c9f4df459-j565b",
+  "volumeMounts": {
+    "mountPath": "/opt/privx/keyvault",
+    "name": "privx-config",
+    "subPath": "keyvault"
+  }
+}
+{
+  "name": "privx-keyvault-7c9f4df459-j565b",
+  "volumeMounts": {
+    "mountPath": "/opt/privx/etc",
+    "name": "privx-config",
+    "subPath": "privxetc"
+  }
+}
+{
+  "name": "privx-keyvault-7c9f4df459-j565b",
+  "volumeMounts": {
+    "mountPath": "/etc/nginx/ssl",
+    "name": "privx-config",
+    "subPath": "nginxssl"
+  }
+}
+{
+  "name": "privx-license-manager-8d5896c4-mgxvx",
+  "volumeMounts": {
+    "mountPath": "/opt/privx/cert",
+    "name": "privx-config",
+    "subPath": "privxcert"
+  }
+}
+{
+  "name": "privx-license-manager-8d5896c4-mgxvx",
+  "volumeMounts": {
+    "mountPath": "/opt/privx/keyvault",
+    "name": "privx-config",
+    "subPath": "keyvault"
+  }
+}
+{
+  "name": "privx-license-manager-8d5896c4-mgxvx",
+  "volumeMounts": {
+    "mountPath": "/opt/privx/etc",
+    "name": "privx-config",
+    "subPath": "privxetc"
+  }
+}
+{
+  "name": "privx-license-manager-8d5896c4-mgxvx",
+  "volumeMounts": {
+    "mountPath": "/etc/nginx/ssl",
+    "name": "privx-config",
+    "subPath": "nginxssl"
+  }
+}
+{
+  "name": "privx-monitor-service-6fdf5b799b-8pm5n",
+  "volumeMounts": {
+    "mountPath": "/opt/privx/cert",
+    "name": "privx-config",
+    "subPath": "privxcert"
+  }
+}
+{
+  "name": "privx-monitor-service-6fdf5b799b-8pm5n",
+  "volumeMounts": {
+    "mountPath": "/opt/privx/keyvault",
+    "name": "privx-config",
+    "subPath": "keyvault"
+  }
+}
+{
+  "name": "privx-monitor-service-6fdf5b799b-8pm5n",
+  "volumeMounts": {
+    "mountPath": "/opt/privx/etc",
+    "name": "privx-config",
+    "subPath": "privxetc"
+  }
+}
+{
+  "name": "privx-monitor-service-6fdf5b799b-8pm5n",
+  "volumeMounts": {
+    "mountPath": "/etc/nginx/ssl",
+    "name": "privx-config",
+    "subPath": "nginxssl"
+  }
+}
+{
+  "name": "privx-network-access-manager-868b4f4454-xtsnn",
+  "volumeMounts": {
+    "mountPath": "/opt/privx/cert",
+    "name": "privx-config",
+    "subPath": "privxcert"
+  }
+}
+{
+  "name": "privx-network-access-manager-868b4f4454-xtsnn",
+  "volumeMounts": {
+    "mountPath": "/opt/privx/keyvault",
+    "name": "privx-config",
+    "subPath": "keyvault"
+  }
+}
+{
+  "name": "privx-network-access-manager-868b4f4454-xtsnn",
+  "volumeMounts": {
+    "mountPath": "/opt/privx/etc",
+    "name": "privx-config",
+    "subPath": "privxetc"
+  }
+}
+{
+  "name": "privx-network-access-manager-868b4f4454-xtsnn",
+  "volumeMounts": {
+    "mountPath": "/etc/nginx/ssl",
+    "name": "privx-config",
+    "subPath": "nginxssl"
+  }
+}
+{
+  "name": "privx-nginx-59c94748f6-xg27f",
+  "volumeMounts": {
+    "mountPath": "/tmp",
+    "name": "privx-config",
+    "subPath": "nginxtmp"
+  }
+}
+{
+  "name": "privx-nginx-59c94748f6-xg27f",
+  "volumeMounts": {
+    "mountPath": "/var/log/nginx",
+    "name": "privx-config",
+    "subPath": "nginxlog"
+  }
+}
+{
+  "name": "privx-nginx-59c94748f6-xg27f",
+  "volumeMounts": {
+    "mountPath": "/etc/nginx/privx/",
+    "name": "privx-config",
+    "subPath": "nginxprivx"
+  }
+}
+{
+  "name": "privx-nginx-59c94748f6-xg27f",
+  "volumeMounts": {
+    "mountPath": "/etc/nginx/ssl",
+    "name": "privx-config",
+    "subPath": "nginxssl"
+  }
+}
+{
+  "name": "privx-rdp-mitm-5f57b88556-ntlrw",
+  "volumeMounts": {
+    "mountPath": "/tmp",
+    "name": "privx-config",
+    "subPath": "privxrdpmitmtmp"
+  }
+}
+{
+  "name": "privx-rdp-mitm-5f57b88556-ntlrw",
+  "volumeMounts": {
+    "mountPath": "/var/run",
+    "name": "privx-config",
+    "subPath": "privxredemption"
+  }
+}
+{
+  "name": "privx-rdp-mitm-5f57b88556-ntlrw",
+  "volumeMounts": {
+    "mountPath": "/opt/privx/cert",
+    "name": "privx-config",
+    "subPath": "privxcert"
+  }
+}
+{
+  "name": "privx-rdp-mitm-5f57b88556-ntlrw",
+  "volumeMounts": {
+    "mountPath": "/opt/privx/keyvault",
+    "name": "privx-config",
+    "subPath": "keyvault"
+  }
+}
+{
+  "name": "privx-rdp-mitm-5f57b88556-ntlrw",
+  "volumeMounts": {
+    "mountPath": "/opt/privx/etc",
+    "name": "privx-config",
+    "subPath": "privxetc"
+  }
+}
+{
+  "name": "privx-rdp-mitm-5f57b88556-ntlrw",
+  "volumeMounts": {
+    "mountPath": "/etc/nginx/ssl",
+    "name": "privx-config",
+    "subPath": "nginxssl"
+  }
+}
+{
+  "name": "privx-rdp-mitm-5f57b88556-ntlrw",
+  "volumeMounts": {
+    "mountPath": "/var/privx/audit",
+    "name": "privx-config",
+    "subPath": "privxaudit"
+  }
+}
+{
+  "name": "privx-rdp-proxy-6dbcfbc656-gkb2g",
+  "volumeMounts": {
+    "mountPath": "/tmp",
+    "name": "privx-config",
+    "subPath": "rdpproxytmp"
+  }
+}
+{
+  "name": "privx-rdp-proxy-6dbcfbc656-gkb2g",
+  "volumeMounts": {
+    "mountPath": "/home/privx",
+    "name": "privx-config",
+    "subPath": "rdpproxyhome"
+  }
+}
+{
+  "name": "privx-rdp-proxy-6dbcfbc656-gkb2g",
+  "volumeMounts": {
+    "mountPath": "/opt/privx/cert",
+    "name": "privx-config",
+    "subPath": "privxcert"
+  }
+}
+{
+  "name": "privx-rdp-proxy-6dbcfbc656-gkb2g",
+  "volumeMounts": {
+    "mountPath": "/opt/privx/keyvault",
+    "name": "privx-config",
+    "subPath": "keyvault"
+  }
+}
+{
+  "name": "privx-rdp-proxy-6dbcfbc656-gkb2g",
+  "volumeMounts": {
+    "mountPath": "/opt/privx/etc",
+    "name": "privx-config",
+    "subPath": "privxetc"
+  }
+}
+{
+  "name": "privx-rdp-proxy-6dbcfbc656-gkb2g",
+  "volumeMounts": {
+    "mountPath": "/etc/nginx/ssl",
+    "name": "privx-config",
+    "subPath": "nginxssl"
+  }
+}
+{
+  "name": "privx-rdp-proxy-6dbcfbc656-gkb2g",
+  "volumeMounts": {
+    "mountPath": "/var/privx/audit",
+    "name": "privx-config",
+    "subPath": "privxaudit"
+  }
+}
+{
+  "name": "privx-rdp-proxy-6dbcfbc656-gkb2g",
+  "volumeMounts": {
+    "mountPath": "/guacamole-server",
+    "name": "privx-config",
+    "subPath": "guacamole"
+  }
+}
+{
+  "name": "privx-role-store-565d9d6f86-nlr4p",
+  "volumeMounts": {
+    "mountPath": "/opt/privx/cert",
+    "name": "privx-config",
+    "subPath": "privxcert"
+  }
+}
+{
+  "name": "privx-role-store-565d9d6f86-nlr4p",
+  "volumeMounts": {
+    "mountPath": "/opt/privx/keyvault",
+    "name": "privx-config",
+    "subPath": "keyvault"
+  }
+}
+{
+  "name": "privx-role-store-565d9d6f86-nlr4p",
+  "volumeMounts": {
+    "mountPath": "/opt/privx/etc",
+    "name": "privx-config",
+    "subPath": "privxetc"
+  }
+}
+{
+  "name": "privx-role-store-565d9d6f86-nlr4p",
+  "volumeMounts": {
+    "mountPath": "/etc/nginx/ssl",
+    "name": "privx-config",
+    "subPath": "nginxssl"
+  }
+}
+{
+  "name": "privx-secrets-manager-7574d77f65-lw6p9",
+  "volumeMounts": {
+    "mountPath": "/opt/privx/cert",
+    "name": "privx-config",
+    "subPath": "privxcert"
+  }
+}
+{
+  "name": "privx-secrets-manager-7574d77f65-lw6p9",
+  "volumeMounts": {
+    "mountPath": "/opt/privx/keyvault",
+    "name": "privx-config",
+    "subPath": "keyvault"
+  }
+}
+{
+  "name": "privx-secrets-manager-7574d77f65-lw6p9",
+  "volumeMounts": {
+    "mountPath": "/opt/privx/etc",
+    "name": "privx-config",
+    "subPath": "privxetc"
+  }
+}
+{
+  "name": "privx-secrets-manager-7574d77f65-lw6p9",
+  "volumeMounts": {
+    "mountPath": "/etc/nginx/ssl",
+    "name": "privx-config",
+    "subPath": "nginxssl"
+  }
+}
+{
+  "name": "privx-settings-cf496c746-tn2x8",
+  "volumeMounts": {
+    "mountPath": "/opt/privx/cert",
+    "name": "privx-config",
+    "subPath": "privxcert"
+  }
+}
+{
+  "name": "privx-settings-cf496c746-tn2x8",
+  "volumeMounts": {
+    "mountPath": "/opt/privx/keyvault",
+    "name": "privx-config",
+    "subPath": "keyvault"
+  }
+}
+{
+  "name": "privx-settings-cf496c746-tn2x8",
+  "volumeMounts": {
+    "mountPath": "/opt/privx/etc",
+    "name": "privx-config",
+    "subPath": "privxetc"
+  }
+}
+{
+  "name": "privx-settings-cf496c746-tn2x8",
+  "volumeMounts": {
+    "mountPath": "/etc/nginx/ssl",
+    "name": "privx-config",
+    "subPath": "nginxssl"
+  }
+}
+{
+  "name": "privx-ssh-mitm-7878d6f666-4nlzh",
+  "volumeMounts": {
+    "mountPath": "/tmp",
+    "name": "privx-config",
+    "subPath": "privxsshmitmshareddrive"
+  }
+}
+{
+  "name": "privx-ssh-mitm-7878d6f666-4nlzh",
+  "volumeMounts": {
+    "mountPath": "/opt/privx/cert",
+    "name": "privx-config",
+    "subPath": "privxcert"
+  }
+}
+{
+  "name": "privx-ssh-mitm-7878d6f666-4nlzh",
+  "volumeMounts": {
+    "mountPath": "/opt/privx/keyvault",
+    "name": "privx-config",
+    "subPath": "keyvault"
+  }
+}
+{
+  "name": "privx-ssh-mitm-7878d6f666-4nlzh",
+  "volumeMounts": {
+    "mountPath": "/opt/privx/etc",
+    "name": "privx-config",
+    "subPath": "privxetc"
+  }
+}
+{
+  "name": "privx-ssh-mitm-7878d6f666-4nlzh",
+  "volumeMounts": {
+    "mountPath": "/etc/nginx/ssl",
+    "name": "privx-config",
+    "subPath": "nginxssl"
+  }
+}
+{
+  "name": "privx-ssh-mitm-7878d6f666-4nlzh",
+  "volumeMounts": {
+    "mountPath": "/var/privx/audit",
+    "name": "privx-config",
+    "subPath": "privxaudit"
+  }
+}
+{
+  "name": "privx-ssh-proxy-b6597f778-jw28l",
+  "volumeMounts": {
+    "mountPath": "/tmp",
+    "name": "privx-config",
+    "subPath": "privxsshproxyshareddrive"
+  }
+}
+{
+  "name": "privx-ssh-proxy-b6597f778-jw28l",
+  "volumeMounts": {
+    "mountPath": "/opt/privx/cert",
+    "name": "privx-config",
+    "subPath": "privxcert"
+  }
+}
+{
+  "name": "privx-ssh-proxy-b6597f778-jw28l",
+  "volumeMounts": {
+    "mountPath": "/opt/privx/keyvault",
+    "name": "privx-config",
+    "subPath": "keyvault"
+  }
+}
+{
+  "name": "privx-ssh-proxy-b6597f778-jw28l",
+  "volumeMounts": {
+    "mountPath": "/opt/privx/etc",
+    "name": "privx-config",
+    "subPath": "privxetc"
+  }
+}
+{
+  "name": "privx-ssh-proxy-b6597f778-jw28l",
+  "volumeMounts": {
+    "mountPath": "/etc/nginx/ssl",
+    "name": "privx-config",
+    "subPath": "nginxssl"
+  }
+}
+{
+  "name": "privx-ssh-proxy-b6597f778-jw28l",
+  "volumeMounts": {
+    "mountPath": "/var/privx/audit",
+    "name": "privx-config",
+    "subPath": "privxaudit"
+  }
+}
+{
+  "name": "privx-trail-index-555b9c688d-bs5qk",
+  "volumeMounts": {
+    "mountPath": "/opt/privx/cert",
+    "name": "privx-config",
+    "subPath": "privxcert"
+  }
+}
+{
+  "name": "privx-trail-index-555b9c688d-bs5qk",
+  "volumeMounts": {
+    "mountPath": "/opt/privx/keyvault",
+    "name": "privx-config",
+    "subPath": "keyvault"
+  }
+}
+{
+  "name": "privx-trail-index-555b9c688d-bs5qk",
+  "volumeMounts": {
+    "mountPath": "/opt/privx/etc",
+    "name": "privx-config",
+    "subPath": "privxetc"
+  }
+}
+{
+  "name": "privx-trail-index-555b9c688d-bs5qk",
+  "volumeMounts": {
+    "mountPath": "/etc/nginx/ssl",
+    "name": "privx-config",
+    "subPath": "nginxssl"
+  }
+}
+{
+  "name": "privx-trail-index-555b9c688d-bs5qk",
+  "volumeMounts": {
+    "mountPath": "/var/privx/audit",
+    "name": "privx-config",
+    "subPath": "privxaudit"
+  }
+}
+{
+  "name": "privx-user-store-859b794d46-2v5rg",
+  "volumeMounts": {
+    "mountPath": "/opt/privx/cert",
+    "name": "privx-config",
+    "subPath": "privxcert"
+  }
+}
+{
+  "name": "privx-user-store-859b794d46-2v5rg",
+  "volumeMounts": {
+    "mountPath": "/opt/privx/keyvault",
+    "name": "privx-config",
+    "subPath": "keyvault"
+  }
+}
+{
+  "name": "privx-user-store-859b794d46-2v5rg",
+  "volumeMounts": {
+    "mountPath": "/opt/privx/etc",
+    "name": "privx-config",
+    "subPath": "privxetc"
+  }
+}
+{
+  "name": "privx-user-store-859b794d46-2v5rg",
+  "volumeMounts": {
+    "mountPath": "/etc/nginx/ssl",
+    "name": "privx-config",
+    "subPath": "nginxssl"
+  }
+}
+{
+  "name": "privx-vault-6c9b5449c8-wprcx",
+  "volumeMounts": {
+    "mountPath": "/opt/privx/cert",
+    "name": "privx-config",
+    "subPath": "privxcert"
+  }
+}
+{
+  "name": "privx-vault-6c9b5449c8-wprcx",
+  "volumeMounts": {
+    "mountPath": "/opt/privx/keyvault",
+    "name": "privx-config",
+    "subPath": "keyvault"
+  }
+}
+{
+  "name": "privx-vault-6c9b5449c8-wprcx",
+  "volumeMounts": {
+    "mountPath": "/opt/privx/etc",
+    "name": "privx-config",
+    "subPath": "privxetc"
+  }
+}
+{
+  "name": "privx-vault-6c9b5449c8-wprcx",
+  "volumeMounts": {
+    "mountPath": "/etc/nginx/ssl",
+    "name": "privx-config",
+    "subPath": "nginxssl"
+  }
+}
+{
+  "name": "privx-workflow-engine-699679dcd4-qbrrt",
+  "volumeMounts": {
+    "mountPath": "/opt/privx/cert",
+    "name": "privx-config",
+    "subPath": "privxcert"
+  }
+}
+{
+  "name": "privx-workflow-engine-699679dcd4-qbrrt",
+  "volumeMounts": {
+    "mountPath": "/opt/privx/keyvault",
+    "name": "privx-config",
+    "subPath": "keyvault"
+  }
+}
+{
+  "name": "privx-workflow-engine-699679dcd4-qbrrt",
+  "volumeMounts": {
+    "mountPath": "/opt/privx/etc",
+    "name": "privx-config",
+    "subPath": "privxetc"
+  }
+}
+{
+  "name": "privx-workflow-engine-699679dcd4-qbrrt",
+  "volumeMounts": {
+    "mountPath": "/etc/nginx/ssl",
+    "name": "privx-config",
+    "subPath": "nginxssl"
+  }
+}
